@@ -1,0 +1,16 @@
+.maincontainer{
+    width: 100%;
+    min-height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: antiquewhite;
+}
+.maincontainer .box{
+    text-align: center;
+}
+.maincontainer .card{
+    padding: 0;
+}

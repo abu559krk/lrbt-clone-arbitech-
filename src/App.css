@@ -1,38 +1,469 @@
-.App {
-  text-align: center;
-}
+.c-item{
+  height: 480px;
+  object-fit: cover;
+  width: 100vh;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.mission-heading{
+  margin-top: 80px;
+  font-size: 4rem;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  text-align: center;
+  color: black;
+  font-family: "Nunito", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bolder
+}
+.mission-para{
+  margin-top: 10px;
+  font-size: 3rem;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-family: "Nunito", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-bottom: 100px;
+  font-weight: bold;
+}
+.slider-para-1{
+ position: absolute;
+ margin-bottom: 550px;
+}
+.slider-button{
+  justify-content: center;
+  flex-direction: column;
+  background-color: dodgerblue;
   color: white;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.slider-para-2{
+  font-size:18px;
+
+}
+/* .under-line{
+  height: 200px;
+  width: 500px;
+ justify-content: center;
+  color: blueviolet;
+  border-radius: 100px;
+} */
+.row{
+  --bs-gutter-x: 0rem;
+}
+.cardsection{
+  height: 500px;
+  background-color: antiquewhite;
+}
+.million-para{
+  font-size: 3.5rem;
+  text-align: center;
+  justify-content: center;
+  font-weight: bold;
+  font-family: "Nunito", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.thirdcard{
+background-color: #F5F0E2;
+}
+.helpcard{
+  background-color: #154D68;
+  height: 130vh;
+  width: 100%;
+}
+.CardImage{
+  width: 70%;
 }
 
-.App-link {
-  color: #61dafb;
+.carousel-inner{
+  opacity: 1;
+    width: 100vw;
+   height: 600px;
+    transform: translate(-27px, -35px);
+    margin-top: 50px;
+}
+.innerimagecss{
+width: 100vw;
+height: 500px;
+}
+.carousel-item{
+margin-top: 30px;
+}
+.image-slider-para{
+  width: 100%;
+  height: 60vh;
+  position: relative;
+}
+.carousel-image{
+  height: 10px;
+  width: 10px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.bg-image-testimonial{
+  background-image: url("./assets/testimonials.jpg");
+  height: 90vh;
+  width: 100vw;
+  background-size: 160% 130%;
+  overflow: hidden;
+  /* object-fit: cover; */
+  background-size: cover;
+  position: relative;
+}
+/* .corporate-image{
+  width: 150px;
+  margin-left: 70px;
+} */
+/* .corporate-sidebar{
+  display: flex;
+} */
+
+.newsbackground{
+  height: auto;
+  background-color: #F5F0E2;
+}
+.location-background{
+  background-color: brown;
+  height: 20vh;
+  width: 100vw;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.copyright{
+  background-color: #3B687E;
+  height: 60px;
+  /* width: 100%; */
+}
+
+.copyright-para{
+  color: aliceblue;
+  font-size: 1rem;
+  padding-top: 10px;
+  font-weight: 20px;
+}
+
+.location-icon{
+  background-color: #F0582F;
+  height: 120px;
+  /* width: 100vw; */
+}
+.location-img{
+  height: 30px;
+  width: 30px;
+}
+.phone-logo{
+  height: 22px;
+  margin-right: 10px;
+}
+.mobile-logcss{
+  height: 22px;
+  margin-right: 10px;
+}
+.mail-logo{
+  height: 22px;
+  margin-right: 10px;
+}
+
+.location-icon-css{
+  height: 80px;
+  width: 100px;
+  margin-left: 120px;
+  margin-top: 20px;
+  color: whitesmoke;
+}
+.location-heading{
+  margin-top: 30px;
+  color: whitesmoke;
+  font-size: 1rem;
+  font-family: "Nunito", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.scroll-down{
+  margin-left: 50px;
+  margin-top: 30px;
+}
+.header-social-media{
+  margin-left: 90px;
+  margin-right: 10px;}
+.header-button-one{
+  background-color: #018ABD;
+  width: 155px;
+  text-align: center;
+  height: 90px;
+  padding: 20px;
+  color: white;
+  font-family: "Nunito", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  border: none;
+}
+.header-button-two{
+  width: 155px;
+  text-align: center;
+  height: 90px;
+  background-color: #70C101;
+  padding: 20px;
+  color: white;
+  font-family: "Nunito", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  border: none;
+}
+
+.image-one-slider{
+  height: 90vh;
+  width: 100vw;
+}
+.image-two-slider{
+  height: 90vh;
+  width: 100vw;
+  background-position: center;
+}
+.image-three-slider{
+  height: 90vh;
+  width: 100vw;
+  background-position: center;
+}
+
+.number{
+  color: #DE7A00;
+  font-family: "Rubik";
+}
+.help-card-heading{
+  justify-content: center;
+  text-align: center;
+  font-family: "Nunito", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 2.7rem;
+  font-weight: bolder;
+  margin-bottom: 3%;
+  /* padding: 10px; */
+}
+
+.second-card-number{
+  font-family: "Rubik", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold;
+  font-size: 80px;
+  color: #DE7A00;
+}
+
+.fourth-card-heading{
+  justify-content: center;
+  text-align: center;
+  font-family: "Nunito", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bolder;
+  font-size: 3.5rem;
+}
+.help-card-background-css{
+color: white;
+font-family: "Rubik", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+margin: 20px;
+height: 320px;
+
+/* padding: 30px 30px; */
+/* height: 120px; */
+}
+
+.drop-menue{
+  width: 30vw;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+  margin-left: 70px;
+  margin-top: 30px;
+ 
+}
+.submit-button{
+margin-left: 300px;
+/* margin-top: 60x; */
+}
+.buooton-last{
+  border: none;
+  background-color: #70C101;
+  width: 95px;
+  height: 70px;
+  margin-top: 20px;
+  padding: 20px;
+  font-family: "Rubik", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: white;
+  border-radius: 10px;
+}
+
+.help-heading{
+  align-items: center;
+ /* padding: 50px; */
+  font-family: "help-heading", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 3rem;
+  font-weight: bolder;
+  color: white;
+
+}
+.help-parent{
+  height: auto;
+}
+
+.testimonials-heading{
+  font-size: 3rem;
+  font-family: "help-heading", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 80px;
+}
+
+.new-heading{
+  font-size: 3rem;
+  font-family: "help-heading", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-top: 80px;
+}
+
+.copyright-heading{
+  font-family: "help-heading", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  width: 100vw;
+  height: 70px;
+  margin-top: 10px; 
+ text-align: center;
+  color: white;
+  /* padding: 10px 10px; */
+  margin-top: 50px;
+  font-family: "Nunito", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  justify-content: center;
+}
+
+
+.para-slider{
+  /* justify-content: center;
+  display: flex; */
+  /* align-items: center; */
+  position: absolute;
+  bottom: 5%;
+  color: white;
+  color: #848585;
+  font-size: 60px;
+  margin-left: 0;
+  background-color: #313232;
+
+}
+.para-slider-dive{
+  flex-direction: row;
+  justify-content: center;
+  display: flex;
+  margin-top: 1000px;
+  margin-left:220px;
+  width: 500px;
+  height: 100px;
+  opacity: 1;
+}
+
+.third-card-content{
+  margin-top: 100px;
+  width: 350px;
+  height: 650px;
+  /* padding: 20px; */
+  border: 1px solid blue;
+}
+
+.third-card-image{
+  /* height: 300px;
+
+  width: 360px; */
+  /* justify-content: center;
+  align-items: center; */
+  /* border-radius: 10px; */
+}
+.third-card-title{
+  height: 130px;
+  justify-content: center;
+  text-align: center;
+  padding: 50px;
+  text-align: center;
+  font-family: "Nunito", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.third-card-money{
+  font-family: "Nunito", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-bottom: 50px;
+}
+
+.money_currency{
+  font-size: 1.2em;
+  color: #313232;
+}
+.money{
+  font-size: 3rem;
+  color: #DE7A00;
+  font-weight: bolder;
+}
+
+.third-card-button{
+  border: none;
+  background-color: #018ABD;
+  color: white;
+  border-radius: 10px;
+  height: 60px;
+  width: 170px;
+  font-size: 1.8rem;
+  font-family: "Nunito", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bolder;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-heading{
+  justify-content: center;
+  text-align: center;
+  font-size: 2.8rem;
+ margin-top: 80px;
+}
+
+.fourth-card-main-css{
+  width: 50px;
+  margin-left: 90px;
+}
+
+.help-image{
+  position: absolute;  /*before  position: absolute; your parent div position must be relative*/
+  bottom:250px;
+  right: 130px;
+
+}
+
+.help-description{
+  margin-top: 10px;
+  padding: 20px;
+  font-size: 1rem;
+}
+
+
+.help-title{
+  margin-top: 70px;
+  padding-top: 80px;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+}
+
+.helpcard-btn{
+  margin-top: 40px;
+  width: 150px;
+  font-size: 1.5rem;
+  background-color: white;
+  color: #313232;
+  border: none;
+  font-family: "Nunito", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bolder;
+}
+
+.second-img-slider-css{
+  margin-top: 50px;
+}
+
+.news-para{
+font-size: 1rem;
+font-family: "Nunito", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-weight: bolder;
+padding: 20;
+}
+
+.bottom-para{
+  margin-left: 200px;
+  font-family: "Nunito", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
